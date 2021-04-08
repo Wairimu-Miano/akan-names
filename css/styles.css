@@ -5,5 +5,17 @@ h1{
   color:white;
   background-color:#2a6592;
   border-bottom: 20px solid #2a6592;
-  width:100%;
+}
+.card{
+  background-color:#f0f6fb;
+  border:3px solid #3988c4;
+  text-align:center;
+  margin: 0px;
+}
+form{
+  line-height:2;
+}
+.buttons{
+  margin: 15px 10px;
+
 }
