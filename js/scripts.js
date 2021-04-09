@@ -20,4 +20,6 @@ function newDate=new Date(dob){
   //Then we divide the year into two, century part and actual Year
   var century=zellerYear(0,2)
   var yearYY=parseInt(zellerYear.substr(2,2))
-  
+  //Insert FORMULA
+  var day=((parseInt((26*(zellerMonth+1)/10))+ zellerYear+parseInt(zellerYear/4)-parseInt(zellerYear/100)+parseInt(zellerYear/400)+date)%7)
+    
