@@ -22,6 +22,10 @@ form{
 body{
   background-image:url("https://cdn.pixabay.com/photo/2020/09/30/17/17/palm-5616482__340.jpg");
 }
+h4{
+  color:#2a6592;
+  text-decoration:underline;
+}
 .warn{
   font-size:80%;
   color:red;
