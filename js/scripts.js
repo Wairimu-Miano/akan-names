@@ -22,4 +22,14 @@ function newDate=new Date(dob){
   var yearYY=parseInt(zellerYear.substr(2,2))
   //Insert FORMULA
   var day=((parseInt((26*(zellerMonth+1)/10))+ zellerYear+parseInt(zellerYear/4)-parseInt(zellerYear/100)+parseInt(zellerYear/400)+date)%7)
-    
+  //FUNCTION TO RETURN Name, after checking gender
+  function name(day){
+    const form =document.forms.gender-form
+    const radios=form.elements.gender
+    const value=Array.from(radios).find(radio=>radio.checked).value
+    if value==="male"{
+      alert("Your Akan name is " + maleNames[day])
+    } else{
+      alert("Your Akan name is " + femaleNames[day])
+    }
+  }
