@@ -5,6 +5,7 @@ h1{
   color:white;
   background-color:#2a6592;
   border-bottom: 20px solid #2a6592;
+  margin-bottom: 50px;
 }
 .card {
   background-color:#f0f6fb;
@@ -22,4 +23,8 @@ form{
 .warn{
   font-size:80%;
   color:red;
+}
+#details{
+  float:right;
+  margin-left:150px;
 }
