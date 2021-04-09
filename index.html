@@ -12,17 +12,18 @@
     <div class="container">
       <div class="row">
         <div class=" col-md-4 card">
+          <h4>ENTER YOUR DETAILS ON THE FORM BELOW:</h4>
           <form action="js/scripts.js">
+            <div class="dob-form">
+              <label for="dob"><p>Date of Birth:</p></label><br>
+              <input type="date" id="dob" name="dob" required><br><br>
+            </div>
             <div class="gender-form">
               <p>Select your gender:</p>
               <input type="radio" id="female" name="gender" value="female" required>
               <label for="female"> Female </label><br>
               <input type="radio" id="male" name="gender" value="male">
               <label for="male">Male</label>
-            </div>
-            <div class="dob-form">
-              <label for="dob">Date of Birth:</label><br>
-              <input type="date" id="dob" name="dob" required><br>
             </div>
             <p class="warn">*Kindly confirm your details are correct before hitting the submit button</p>
             <div class="buttons">
