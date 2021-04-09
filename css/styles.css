@@ -24,7 +24,8 @@ form{
   font-size:80%;
   color:red;
 }
-#details{
-  float:right;
-  margin-left:150px;
+.footer{
+  text-align:center;
+  background-color:#2a6592;
+  color:white;
 }
