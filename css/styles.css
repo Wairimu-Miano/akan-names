@@ -18,7 +18,9 @@ form{
 }
 .buttons{
   margin: 15px 10px;
-
+}
+body{
+  background-image:url("https://cdn.pixabay.com/photo/2020/09/30/17/17/palm-5616482__340.jpg");
 }
 .warn{
   font-size:80%;
@@ -28,4 +30,8 @@ form{
   text-align:center;
   background-color:#2a6592;
   color:white;
+  margin-top:50px;
+  margin-bottom:0;
+  font-weight:bold;
+  border-bottom:10px solid #2a6592;
 }
