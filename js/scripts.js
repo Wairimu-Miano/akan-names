@@ -25,5 +25,12 @@ function submitStaff(){
   //Insert FORMULA
   var day=(date+Math.floor(2.6*(month+1))+yearYY+Math.floor(yearYY/4)+Math.floor(century/4)-(2*century))%7
   //With Zellers Formula, 0=Saturday,1=Sunday,2=Monday and so on. This has been incorporated when creating the name Arrays
-  
+  //FUNCTION TO RETURN Name, after checking gender
+  var gender=form.gender.value
+  var result
+  if (gender==="male") {
+    alert("Your Akan name is " + maleNames[day] +"!!");
+  } else {
+    alert("Your Akan name is " + femaleNames[day]+"!!")
+  }
 }
