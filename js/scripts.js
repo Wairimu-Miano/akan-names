@@ -22,4 +22,8 @@ function submitStaff(){
   //Then we divide the year into two, century part and actual Year of the century
   var century=parseInt(zellerYear.toString().substr(0,2))
   var yearYY=parseInt(zellerYear.toString().substr(2,2))
+  //Insert FORMULA
+  var day=(date+Math.floor(2.6*(month+1))+yearYY+Math.floor(yearYY/4)+Math.floor(century/4)-(2*century))%7
+  //With Zellers Formula, 0=Saturday,1=Sunday,2=Monday and so on. This has been incorporated when creating the name Arrays
+  
 }
